@@ -95,3 +95,47 @@ let student = {
 for (let key in student) {
     console.log(key, ":", student[key]);
 }
+
+// funtion is a block of code that can be called and executed when needed.
+function greet(name) {
+    console.log("Hello " + name);
+}
+greet("Kissu"); 
+
+// function with parameters
+function greer(name) {
+    console.log("hii ciet " + name);
+}
+greer("kishor"); 
+
+// function with return value
+function greet(a,b) {
+    return a + b 
+
+}
+let a = add(10, 20);
+console.log(a);  
+
+// arrow function is a shorter syntax for writing functions in JavaScript. it provides modern function
+function add(a, b) {
+    return a + b;
+}
+// arrow function
+const add = (a, b) => {
+    return a + b;
+};
+const add = (a, b) => a + b;  */
+
+
+// a college student want to caluclate grade based on marks . write a function that makes as input and returns  a= 90+ b = 75+ c = 60+ and fail =  below 60 and return thr function
+function calculateGrade(marks) {
+    if (marks >= 90) {
+        console.log ("A+");
+    } else if (marks >= 75) {
+        console.log("B+");
+    } else if (marks >= 60) {
+        console.log("C+");
+    } else {
+        console.log("Fail");
+    }
+}
